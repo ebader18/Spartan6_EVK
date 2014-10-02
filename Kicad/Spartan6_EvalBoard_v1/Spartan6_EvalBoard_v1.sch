@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "1 oct 2014"
+Date "2 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,6 +53,7 @@ S 6950 2900 1250 1150
 U 5425C54D
 F0 "IO Connector" 50
 F1 "IO_Connector.sch" 50
+F2 "IO[1..70]" B L 6950 3200 60 
 $EndSheet
 Text Notes 7150 3550 0    79   ~ 16
 IO Connector
@@ -77,6 +78,7 @@ F2 "LED1" O L 5000 3250 60
 F3 "LED2" O L 5000 3350 60 
 F4 "LED3" O L 5000 3450 60 
 F5 "LED4" O L 5000 3550 60 
+F6 "IO[1..70]" B R 6650 3200 60 
 $EndSheet
 Text Notes 5600 4300 0    79   ~ 16
 CSG225
@@ -88,4 +90,6 @@ Wire Wire Line
 	5000 3450 4500 3450
 Wire Wire Line
 	5000 3550 4500 3550
+Wire Bus Line
+	6950 3200 6650 3200
 $EndSCHEMATC
