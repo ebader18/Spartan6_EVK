@@ -1,0 +1,53 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\xr21b1411_evb_sp337_rev14.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "I:\depts\uartsupport\Evaluation boards\USB_PCIe_CD_Package\XR21B1411 CD SP337 rev 13\Schematic - Orcad\xr21b1411_evb_sp337_rev14.dsn")
+      (Path "Design Resources"
+         "I:\depts\uartsupport\Evaluation boards\USB_PCIe_CD_Package\XR21B1411 CD SP337 rev 13\Schematic - Orcad\xr21b1411_evb_sp337_rev14.dsn"
+         "sch_top")
+      (Select "Design Resources"
+         "I:\depts\uartsupport\Evaluation boards\USB_PCIe_CD_Package\XR21B1411 CD SP337 rev 13\Schematic - Orcad\xr21b1411_evb_sp337_rev14.dsn"
+         "sch_top" "USB_MODE_1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 0 200 0 615"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 54 1064 54 672")
+        (Scroll "90 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "I:\DEPTS\UARTSUPPORT\EVALUATION BOARDS\USB_PCIE_CD_PACKAGE\XR21B1411 CD SP337 REV 13\SCHEMATIC - ORCAD\XR21B1411_EVB_SP337_REV14.DSN")
+      (Schematic "sch_top")
+      (Page "RS232_3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 81 1091 81 699")
+        (Scroll "68 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "I:\DEPTS\UARTSUPPORT\EVALUATION BOARDS\USB_PCIE_CD_PACKAGE\XR21B1411 CD SP337 REV 13\SCHEMATIC - ORCAD\XR21B1411_EVB_SP337_REV14.DSN")
+      (Schematic "sch_top")
+      (Page "uart_2")))
+  (MPSSessionName "billw"))

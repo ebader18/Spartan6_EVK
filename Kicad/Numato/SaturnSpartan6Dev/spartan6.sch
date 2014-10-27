@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 6
 Title "SATURN SPARTAN6 FPGA MODULE"
-Date "15 apr 2014"
+Date "1 oct 2014"
 Rev ""
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"

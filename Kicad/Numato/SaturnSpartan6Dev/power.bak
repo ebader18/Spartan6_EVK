@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:numato_kicad_lib
 LIBS:saturn-cache
 EELAYER 27 0
 EELAYER END

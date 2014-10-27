@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "2 oct 2014"
+Date "22 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,14 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3750 5450 0    60   Output ~ 0
-LED1
-Text HLabel 3750 5550 0    60   Output ~ 0
-LED2
-Text HLabel 3750 5650 0    60   Output ~ 0
-LED3
-Text HLabel 3750 5750 0    60   Output ~ 0
-LED4
 $Comp
 L CONN_3X2 P401
 U 1 1 542CF4E5
@@ -82,21 +74,10 @@ TCK
 Text Label 12350 8850 0    60   ~ 0
 TMS
 $Comp
-L FM25V05 U402
-U 1 1 542B68FF
-P 6050 7300
-F 0 "U402" H 6200 7000 60  0000 C CNN
-F 1 "FM25V05" H 6050 7550 60  0000 C CNN
-F 2 "~" H 6200 7000 60  0000 C CNN
-F 3 "~" H 6200 7000 60  0000 C CNN
-	1    6050 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX25L8006E U401
+L MX25L8006E U402
 U 1 1 542B690E
 P 6400 10200
-F 0 "U401" H 6650 9900 60  0000 C CNN
+F 0 "U402" H 6650 9900 60  0000 C CNN
 F 1 "MX25L8006E" H 6400 10550 60  0000 C CNN
 F 2 "~" H 6100 10550 60  0000 C CNN
 F 3 "~" H 6100 10550 60  0000 C CNN
@@ -145,10 +126,10 @@ FLASH_CSn
 Text Label 4800 10100 0    60   ~ 0
 FLASH_MISO
 $Comp
-L C C412
+L C C407
 U 1 1 542B79E4
 P 7500 9550
-F 0 "C412" H 7500 9650 40  0000 L CNN
+F 0 "C407" H 7500 9650 40  0000 L CNN
 F 1 "100n" H 7506 9465 40  0000 L CNN
 F 2 "~" H 7538 9400 30  0000 C CNN
 F 3 "~" H 7500 9550 60  0000 C CNN
@@ -160,10 +141,10 @@ I2C_EE_SCL
 Text Label 4950 7450 0    60   ~ 0
 I2C_EE_SDA
 $Comp
-L C C413
+L C C401
 U 1 1 542B82EA
 P 6950 7750
-F 0 "C413" H 6950 7850 40  0000 L CNN
+F 0 "C401" H 6950 7850 40  0000 L CNN
 F 1 "100n" H 6956 7665 40  0000 L CNN
 F 2 "~" H 6988 7600 30  0000 C CNN
 F 3 "~" H 6950 7750 60  0000 C CNN
@@ -179,10 +160,10 @@ FLASH_SCK
 Text Label 6950 2650 0    60   ~ 0
 FLASH_MOSI
 $Comp
-L C C401
+L C C402
 U 1 1 542BA019
 P 1600 8250
-F 0 "C401" H 1600 8350 40  0000 L CNN
+F 0 "C402" H 1600 8350 40  0000 L CNN
 F 1 "4.7u" H 1606 8165 40  0000 L CNN
 F 2 "~" H 1638 8100 30  0000 C CNN
 F 3 "~" H 1600 8250 60  0000 C CNN
@@ -201,10 +182,10 @@ F 3 "~" H 1850 8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C405
+L C C404
 U 1 1 542BA02C
 P 2100 8250
-F 0 "C405" H 2100 8350 40  0000 L CNN
+F 0 "C404" H 2100 8350 40  0000 L CNN
 F 1 "4.7u" H 2106 8165 40  0000 L CNN
 F 2 "~" H 2138 8100 30  0000 C CNN
 F 3 "~" H 2100 8250 60  0000 C CNN
@@ -212,10 +193,10 @@ F 3 "~" H 2100 8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C408
+L C C405
 U 1 1 542BA032
 P 2450 8250
-F 0 "C408" H 2450 8350 40  0000 L CNN
+F 0 "C405" H 2450 8350 40  0000 L CNN
 F 1 "470n" H 2456 8165 40  0000 L CNN
 F 2 "~" H 2488 8100 30  0000 C CNN
 F 3 "~" H 2450 8250 60  0000 C CNN
@@ -223,10 +204,10 @@ F 3 "~" H 2450 8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C402
+L C C408
 U 1 1 542BAFAA
 P 1600 9800
-F 0 "C402" H 1600 9900 40  0000 L CNN
+F 0 "C408" H 1600 9900 40  0000 L CNN
 F 1 "470n" H 1606 9715 40  0000 L CNN
 F 2 "~" H 1638 9650 30  0000 C CNN
 F 3 "~" H 1600 9800 60  0000 C CNN
@@ -234,10 +215,10 @@ F 3 "~" H 1600 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C404
+L C C409
 U 1 1 542BAFB0
 P 1850 9800
-F 0 "C404" H 1850 9900 40  0000 L CNN
+F 0 "C409" H 1850 9900 40  0000 L CNN
 F 1 "470n" H 1856 9715 40  0000 L CNN
 F 2 "~" H 1888 9650 30  0000 C CNN
 F 3 "~" H 1850 9800 60  0000 C CNN
@@ -245,10 +226,10 @@ F 3 "~" H 1850 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C406
+L C C410
 U 1 1 542BAFB6
 P 2100 9800
-F 0 "C406" H 2100 9900 40  0000 L CNN
+F 0 "C410" H 2100 9900 40  0000 L CNN
 F 1 "470n" H 2106 9715 40  0000 L CNN
 F 2 "~" H 2138 9650 30  0000 C CNN
 F 3 "~" H 2100 9800 60  0000 C CNN
@@ -256,10 +237,10 @@ F 3 "~" H 2100 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C407
+L C C411
 U 1 1 542BAFBC
 P 2400 9800
-F 0 "C407" H 2400 9900 40  0000 L CNN
+F 0 "C411" H 2400 9900 40  0000 L CNN
 F 1 "4.7u" H 2406 9715 40  0000 L CNN
 F 2 "~" H 2438 9650 30  0000 C CNN
 F 3 "~" H 2400 9800 60  0000 C CNN
@@ -267,10 +248,10 @@ F 3 "~" H 2400 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C409
+L C C412
 U 1 1 542BAFC2
 P 2650 9800
-F 0 "C409" H 2650 9900 40  0000 L CNN
+F 0 "C412" H 2650 9900 40  0000 L CNN
 F 1 "4.7u" H 2656 9715 40  0000 L CNN
 F 2 "~" H 2688 9650 30  0000 C CNN
 F 3 "~" H 2650 9800 60  0000 C CNN
@@ -278,10 +259,10 @@ F 3 "~" H 2650 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C410
+L C C413
 U 1 1 542BB40A
 P 2950 9800
-F 0 "C410" H 2950 9900 40  0000 L CNN
+F 0 "C413" H 2950 9900 40  0000 L CNN
 F 1 "10u" H 2956 9715 40  0000 L CNN
 F 2 "~" H 2988 9650 30  0000 C CNN
 F 3 "~" H 2950 9800 60  0000 C CNN
@@ -289,10 +270,10 @@ F 3 "~" H 2950 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C411
+L C C414
 U 1 1 542BB410
 P 3200 9800
-F 0 "C411" H 3200 9900 40  0000 L CNN
+F 0 "C414" H 3200 9900 40  0000 L CNN
 F 1 "10u" H 3206 9715 40  0000 L CNN
 F 2 "~" H 3238 9650 30  0000 C CNN
 F 3 "~" H 3200 9800 60  0000 C CNN
@@ -313,10 +294,10 @@ $EndComp
 Text Label 10950 8900 2    60   ~ 0
 CLK
 $Comp
-L C C414
+L C C406
 U 1 1 542B660F
 P 9350 9000
-F 0 "C414" H 9350 9100 40  0000 L CNN
+F 0 "C406" H 9350 9100 40  0000 L CNN
 F 1 "100n" H 9356 8915 40  0000 L CNN
 F 2 "~" H 9388 8850 30  0000 C CNN
 F 3 "~" H 9350 9000 60  0000 C CNN
@@ -326,10 +307,10 @@ $EndComp
 Text Label 10150 3650 0    60   ~ 0
 CLK
 $Comp
-L F FB401
+L F FB403
 U 1 1 542B7393
 P 6400 8900
-F 0 "FB401" H 6400 8800 50  0000 C CNN
+F 0 "FB403" H 6400 8800 50  0000 C CNN
 F 1 "F" H 6400 8900 50  0000 C CNN
 F 2 "~" H 6400 8900 60  0000 C CNN
 F 3 "~" H 6400 8900 60  0000 C CNN
@@ -337,10 +318,10 @@ F 3 "~" H 6400 8900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L F FB403
+L F FB402
 U 1 1 542B7717
 P 9000 8700
-F 0 "FB403" H 9000 8600 50  0000 C CNN
+F 0 "FB402" H 9000 8600 50  0000 C CNN
 F 1 "F" H 9000 8700 50  0000 C CNN
 F 2 "~" H 9000 8700 60  0000 C CNN
 F 3 "~" H 9000 8700 60  0000 C CNN
@@ -348,381 +329,82 @@ F 3 "~" H 9000 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F FB402
+L F FB401
 U 1 1 542B8ADD
 P 7300 7450
-F 0 "FB402" H 7300 7350 50  0000 C CNN
+F 0 "FB401" H 7300 7350 50  0000 C CNN
 F 1 "F" H 7300 7450 50  0000 C CNN
 F 2 "~" H 7300 7450 60  0000 C CNN
 F 3 "~" H 7300 7450 60  0000 C CNN
 	1    7300 7450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4300 4950
 NoConn ~ 4300 5050
-NoConn ~ 4300 5350
 NoConn ~ 7500 1950
-NoConn ~ 7500 2050
-NoConn ~ 7500 2250
 NoConn ~ 7500 2350
-NoConn ~ 7500 2450
 NoConn ~ 7500 2750
-NoConn ~ 7500 2850
-NoConn ~ 7500 2950
-NoConn ~ 7500 3050
-NoConn ~ 7500 3150
-NoConn ~ 7500 3250
-NoConn ~ 7500 3350
-NoConn ~ 7500 3450
-NoConn ~ 7500 3550
-NoConn ~ 7500 3650
-NoConn ~ 7500 3750
-NoConn ~ 7500 3850
-NoConn ~ 7500 3950
-NoConn ~ 7500 4050
-NoConn ~ 7500 4150
-NoConn ~ 7500 4250
-NoConn ~ 7500 4350
-NoConn ~ 7500 4450
-NoConn ~ 7500 4550
-NoConn ~ 7500 4650
-NoConn ~ 7500 4750
-NoConn ~ 7500 4850
-NoConn ~ 7500 4950
-NoConn ~ 7500 5050
-NoConn ~ 7500 5150
-NoConn ~ 7500 5250
-NoConn ~ 7500 5350
-NoConn ~ 7500 5450
-NoConn ~ 7500 5550
-NoConn ~ 7500 5650
-NoConn ~ 7500 5750
-NoConn ~ 7500 5950
-NoConn ~ 10450 1950
-NoConn ~ 10450 2050
-NoConn ~ 10450 2150
-NoConn ~ 10450 2250
-NoConn ~ 10450 2350
-NoConn ~ 10450 2450
-NoConn ~ 10450 2550
-NoConn ~ 10450 2650
-NoConn ~ 10450 2750
-NoConn ~ 10450 2850
-NoConn ~ 10450 2950
-NoConn ~ 10450 3050
-NoConn ~ 10450 3150
-NoConn ~ 10450 3250
-NoConn ~ 10450 3350
-NoConn ~ 10450 3450
-NoConn ~ 10450 3550
-NoConn ~ 10450 3750
-NoConn ~ 10450 3850
-NoConn ~ 10450 3950
-NoConn ~ 10450 4050
-NoConn ~ 10450 4150
-NoConn ~ 10450 4250
-NoConn ~ 10450 4350
-NoConn ~ 10450 4450
-NoConn ~ 10450 4550
-NoConn ~ 10450 4650
-NoConn ~ 10450 4750
-NoConn ~ 10450 4850
-NoConn ~ 10450 4950
-NoConn ~ 10450 5050
-NoConn ~ 10450 5150
-NoConn ~ 10450 5250
-NoConn ~ 10450 5350
-NoConn ~ 10450 5450
-NoConn ~ 10450 5550
-NoConn ~ 10450 5650
-NoConn ~ 10450 5750
-NoConn ~ 10450 5850
-NoConn ~ 10450 5950
-NoConn ~ 10450 6050
 Entry Wire Line
 	1350 2050 1450 1950
 Entry Wire Line
-	1350 2150 1450 2050
-Entry Wire Line
 	1350 2250 1450 2150
-Entry Wire Line
-	1350 2350 1450 2250
-Entry Wire Line
-	1350 2450 1450 2350
-Entry Wire Line
-	1350 2550 1450 2450
 Entry Wire Line
 	1350 2650 1450 2550
 Entry Wire Line
-	1350 2750 1450 2650
-Entry Wire Line
-	1350 2850 1450 2750
-Entry Wire Line
-	1350 2950 1450 2850
-Entry Wire Line
 	1350 3050 1450 2950
-Entry Wire Line
-	1350 3150 1450 3050
-Entry Wire Line
-	1350 3250 1450 3150
-Entry Wire Line
-	1350 3350 1450 3250
 Entry Wire Line
 	1350 3450 1450 3350
 Entry Wire Line
-	1350 3550 1450 3450
-Entry Wire Line
-	1350 3650 1450 3550
-Entry Wire Line
-	1350 3750 1450 3650
-Entry Wire Line
 	1350 3850 1450 3750
-Entry Wire Line
-	1350 3950 1450 3850
 Entry Wire Line
 	1350 4050 1450 3950
 Entry Wire Line
-	1350 4150 1450 4050
-Entry Wire Line
 	1350 4250 1450 4150
-Entry Wire Line
-	1350 4350 1450 4250
-Entry Wire Line
-	1350 4450 1450 4350
-Entry Wire Line
-	1350 4550 1450 4450
-Entry Wire Line
-	1350 4650 1450 4550
-Entry Wire Line
-	1350 4750 1450 4650
-Entry Wire Line
-	1350 4850 1450 4750
-Entry Wire Line
-	1350 4950 1450 4850
 Entry Wire Line
 	1350 5050 1450 4950
 Entry Wire Line
-	1350 5150 1450 5050
-Entry Wire Line
-	1350 5250 1450 5150
-Entry Wire Line
-	1350 5350 1450 5250
-Entry Wire Line
-	1350 5450 1450 5350
-Entry Wire Line
-	1350 5550 1450 5450
-Entry Wire Line
 	1350 5650 1450 5550
-Entry Wire Line
-	1350 5750 1450 5650
 Entry Wire Line
 	1350 5850 1450 5750
 Entry Wire Line
-	3650 1950 3750 1850
-Entry Wire Line
 	3650 2050 3750 1950
-Entry Wire Line
-	3650 2150 3750 2050
-Entry Wire Line
-	3650 2250 3750 2150
-Entry Wire Line
-	3650 2350 3750 2250
-Entry Wire Line
-	3650 2450 3750 2350
-Entry Wire Line
-	3650 2550 3750 2450
-Entry Wire Line
-	3650 2650 3750 2550
-Entry Wire Line
-	3650 2750 3750 2650
 Entry Wire Line
 	3650 2850 3750 2750
 Entry Wire Line
-	3650 2950 3750 2850
-Entry Wire Line
-	3650 3050 3750 2950
-Entry Wire Line
-	3650 3150 3750 3050
-Entry Wire Line
 	3650 3250 3750 3150
-Entry Wire Line
-	3650 3350 3750 3250
-Entry Wire Line
-	3650 3450 3750 3350
-Entry Wire Line
-	3650 3550 3750 3450
 Entry Wire Line
 	3650 3650 3750 3550
 Entry Wire Line
-	3650 3750 3750 3650
-Entry Wire Line
-	3650 3850 3750 3750
-Entry Wire Line
-	3650 3950 3750 3850
-Entry Wire Line
 	3650 4050 3750 3950
-Entry Wire Line
-	3650 4150 3750 4050
-Entry Wire Line
-	3650 4250 3750 4150
-Entry Wire Line
-	3650 4350 3750 4250
-Entry Wire Line
-	3650 4450 3750 4350
-Entry Wire Line
-	3650 4550 3750 4450
-Entry Wire Line
-	3650 4650 3750 4550
-Entry Wire Line
-	3650 4750 3750 4650
-Entry Wire Line
-	3650 4850 3750 4750
-Entry Wire Line
-	3650 4950 3750 4850
 Text HLabel 1050 1350 0    60   BiDi ~ 0
-IO[1..70]
+IO[1..88]
 Text Label 1350 1350 0    60   ~ 0
-IO[1..70]
-Text Label 1500 1950 0    60   ~ 0
-IO1
-Text Label 1500 2050 0    60   ~ 0
-IO2
-Text Label 1500 2150 0    60   ~ 0
-IO3
-Text Label 1500 2250 0    60   ~ 0
-IO4
-Text Label 1500 2350 0    60   ~ 0
-IO5
-Text Label 1500 2450 0    60   ~ 0
-IO6
+IO[1..88]
 Text Label 1500 2550 0    60   ~ 0
-IO7
-Text Label 1500 2650 0    60   ~ 0
-IO8
-Text Label 1500 2750 0    60   ~ 0
-IO9
-Text Label 1500 2850 0    60   ~ 0
-IO10
-Text Label 1500 2950 0    60   ~ 0
-IO11
-Text Label 1500 3050 0    60   ~ 0
-IO12
-Text Label 1500 3150 0    60   ~ 0
-IO13
-Text Label 1500 3250 0    60   ~ 0
-IO14
-Text Label 1500 3350 0    60   ~ 0
-IO15
-Text Label 1500 3450 0    60   ~ 0
-IO16
-Text Label 1500 3550 0    60   ~ 0
-IO17
-Text Label 1500 3650 0    60   ~ 0
-IO18
-Text Label 1500 3750 0    60   ~ 0
-IO19
-Text Label 1500 3850 0    60   ~ 0
-IO20
-Text Label 1500 3950 0    60   ~ 0
-IO21
-Text Label 1500 4050 0    60   ~ 0
-IO22
-Text Label 1500 4150 0    60   ~ 0
-IO23
-Text Label 1500 4250 0    60   ~ 0
-IO24
-Text Label 1500 4350 0    60   ~ 0
-IO25
-Text Label 1500 4450 0    60   ~ 0
-IO26
-Text Label 1500 4550 0    60   ~ 0
-IO27
-Text Label 1500 4650 0    60   ~ 0
-IO28
-Text Label 1500 4750 0    60   ~ 0
-IO29
-Text Label 1500 4850 0    60   ~ 0
-IO30
-Text Label 1500 4950 0    60   ~ 0
-IO31
-Text Label 1500 5050 0    60   ~ 0
-IO32
-Text Label 1500 5150 0    60   ~ 0
-IO33
-Text Label 1500 5250 0    60   ~ 0
-IO34
-Text Label 1500 5350 0    60   ~ 0
 IO35
-Text Label 1500 5450 0    60   ~ 0
-IO36
-Text Label 1500 5550 0    60   ~ 0
+Text Label 1500 2950 0    60   ~ 0
 IO37
-Text Label 1500 5650 0    60   ~ 0
-IO38
-Text Label 1500 5750 0    60   ~ 0
-IO39
-Text Label 3800 1850 0    60   ~ 0
-IO40
-Text Label 3800 1950 0    60   ~ 0
+Text Label 1500 3350 0    60   ~ 0
 IO41
-Text Label 3800 2050 0    60   ~ 0
-IO42
-Text Label 3800 2150 0    60   ~ 0
+Text Label 1500 3750 0    60   ~ 0
 IO43
-Text Label 3800 2250 0    60   ~ 0
-IO44
-Text Label 3800 2350 0    60   ~ 0
-IO45
-Text Label 3800 2450 0    60   ~ 0
-IO46
-Text Label 3800 2550 0    60   ~ 0
+Text Label 1500 3950 0    60   ~ 0
 IO47
-Text Label 3800 2650 0    60   ~ 0
-IO48
-Text Label 3800 2750 0    60   ~ 0
+Text Label 1500 4150 0    60   ~ 0
 IO49
-Text Label 3800 2850 0    60   ~ 0
-IO50
-Text Label 3800 2950 0    60   ~ 0
-IO51
-Text Label 3800 3050 0    60   ~ 0
-IO52
-Text Label 3800 3150 0    60   ~ 0
-IO53
-Text Label 3800 3250 0    60   ~ 0
-IO54
-Text Label 3800 3350 0    60   ~ 0
+Text Label 1500 4950 0    60   ~ 0
 IO55
-Text Label 3800 3450 0    60   ~ 0
-IO56
-Text Label 3800 3550 0    60   ~ 0
-IO57
-Text Label 3800 3650 0    60   ~ 0
-IO58
-Text Label 3800 3750 0    60   ~ 0
-IO59
-Text Label 3800 3850 0    60   ~ 0
-IO60
-Text Label 3800 3950 0    60   ~ 0
-IO61
-Text Label 3800 4050 0    60   ~ 0
-IO62
-Text Label 3800 4150 0    60   ~ 0
+Text Label 1500 5550 0    60   ~ 0
 IO63
-Text Label 3800 4250 0    60   ~ 0
-IO64
-Text Label 3800 4350 0    60   ~ 0
-IO65
-Text Label 3800 4450 0    60   ~ 0
-IO66
-Text Label 3800 4550 0    60   ~ 0
+Text Label 1500 5750 0    60   ~ 0
+IO61
+Text Label 3800 1950 0    60   ~ 0
 IO67
-Text Label 3800 4650 0    60   ~ 0
-IO68
-Text Label 3800 4750 0    60   ~ 0
-IO69
-Text Label 3800 4850 0    60   ~ 0
-IO70
+Text Label 3800 3150 0    60   ~ 0
+IO75
+Text Label 3800 3550 0    60   ~ 0
+IO77
+Text Label 3800 3950 0    60   ~ 0
+IO81
 $Comp
 L XC6SLX16 Q401
 U 1 1 542CAE59
@@ -736,46 +418,13 @@ F 3 "DOCUMENTATION" H 2700 6650 50  0001 C CNN
 $EndComp
 $Comp
 L XC6SLX16 Q401
-U 2 1 542CAE68
-P 5250 4050
-F 0 "Q401" H 5250 6400 50  0000 C CNN
-F 1 "XC6SLX16" H 5250 6500 50  0000 C CNN
-F 2 "Module" H 5250 6600 50  0001 C CNN
-F 3 "DOCUMENTATION" H 5250 6650 50  0001 C CNN
-	2    5250 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L XC6SLX16 Q401
-U 3 1 542CAE77
+U 3 1 542CB3CB
 P 8400 4150
 F 0 "Q401" H 8400 6500 50  0000 C CNN
 F 1 "XC6SLX16" H 8400 6600 50  0000 C CNN
 F 2 "Module" H 8400 6700 50  0001 C CNN
 F 3 "DOCUMENTATION" H 8400 6750 50  0001 C CNN
 	3    8400 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L XC6SLX16 Q401
-U 4 1 542CB121
-P 11400 4150
-F 0 "Q401" H 11400 6500 50  0000 C CNN
-F 1 "XC6SLX16" H 11400 6600 50  0000 C CNN
-F 2 "Module" H 11400 6700 50  0001 C CNN
-F 3 "DOCUMENTATION" H 11400 6750 50  0001 C CNN
-	4    11400 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L XC6SLX16 Q401
-U 5 1 542CB3CB
-P 14200 4050
-F 0 "Q401" H 14200 6400 50  0000 C CNN
-F 1 "XC6SLX16" H 14200 6500 50  0000 C CNN
-F 2 "Module" H 14200 6600 50  0001 C CNN
-F 3 "DOCUMENTATION" H 14200 6650 50  0001 C CNN
-	5    14200 4050
 	1    0    0    -1  
 $EndComp
 Text Label 13150 2200 0    60   ~ 0
@@ -798,6 +447,149 @@ Text Label 1350 8550 0    60   ~ 0
 GND
 Text Label 1350 7950 0    60   ~ 0
 1.2V
+Text GLabel 1350 7950 0    60   Input ~ 0
+1.2V
+Text GLabel 1350 8550 0    60   Input ~ 0
+GND
+Text Label 1350 9500 0    60   ~ 0
+3.3V
+Text Label 1350 10100 0    60   ~ 0
+GND
+Text GLabel 1350 9500 0    60   Input ~ 0
+3.3V
+Text Label 6150 8550 0    60   ~ 0
+3.3V
+Text Label 7750 9850 2    60   ~ 0
+GND
+Text Label 5450 10400 0    60   ~ 0
+GND
+Text Label 4950 7300 0    60   ~ 0
+GND
+Text Label 6700 8050 0    60   ~ 0
+GND
+Text Label 7800 7450 2    60   ~ 0
+3.3V
+Text Label 6800 7150 2    60   ~ 0
+GND
+Text Label 9100 9300 0    60   ~ 0
+GND
+Text Label 10950 8700 2    60   ~ 0
+3.3V
+Text Label 13650 8850 2    60   ~ 0
+GND
+Text Label 13650 8650 2    60   ~ 0
+3.3V
+Text Label 3800 5450 0    60   ~ 0
+LED1
+Text Label 3800 5550 0    60   ~ 0
+LED2
+Text Label 3800 5650 0    60   ~ 0
+LED3
+Text Label 3800 5750 0    60   ~ 0
+LED4
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 542DBB59
+P 6950 7350
+F 0 "#FLG04" H 6950 7445 30  0001 C CNN
+F 1 "PWR_FLAG" H 6950 7530 30  0000 C CNN
+F 2 "" H 6950 7350 60  0000 C CNN
+F 3 "" H 6950 7350 60  0000 C CNN
+	1    6950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 542DBF84
+P 7150 9150
+F 0 "#FLG05" H 7150 9245 30  0001 C CNN
+F 1 "PWR_FLAG" H 7150 9330 30  0000 C CNN
+F 2 "" H 7150 9150 60  0000 C CNN
+F 3 "" H 7150 9150 60  0000 C CNN
+	1    7150 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 542DC589
+P 9350 8600
+F 0 "#FLG06" H 9350 8695 30  0001 C CNN
+F 1 "PWR_FLAG" H 9350 8780 30  0000 C CNN
+F 2 "" H 9350 8600 60  0000 C CNN
+F 3 "" H 9350 8600 60  0000 C CNN
+	1    9350 8600
+	1    0    0    -1  
+$EndComp
+Text Label 8500 8700 0    60   ~ 0
+3.3V
+Text Label 13100 3650 0    60   ~ 0
+GND
+Text Label 3750 5150 0    60   ~ 0
+I2C_EE_SCL
+Text Label 6950 2850 0    60   ~ 0
+PC_TX
+Text Label 6950 2950 0    60   ~ 0
+PC_RX
+Text Label 6950 3050 0    60   ~ 0
+PC_GPIO0
+Text Label 6950 3150 0    60   ~ 0
+PC_GPIO1
+Text Label 6950 3250 0    60   ~ 0
+PC_GPIO2
+Text Label 6950 3350 0    60   ~ 0
+PC_GPIO3
+Text Label 6950 3450 0    60   ~ 0
+PC_GPIO4
+Text Label 6950 3550 0    60   ~ 0
+PC_GPIO5
+Text Label 5750 1350 0    60   ~ 0
+PC_GPIO[0..5]
+Text HLabel 5700 1350 0    60   BiDi ~ 0
+PC_GPIO[0..5]
+Entry Wire Line
+	6850 3150 6950 3050
+Entry Wire Line
+	6850 3250 6950 3150
+Entry Wire Line
+	6850 3350 6950 3250
+Entry Wire Line
+	6850 3450 6950 3350
+Entry Wire Line
+	6850 3550 6950 3450
+Entry Wire Line
+	6850 3650 6950 3550
+NoConn ~ 4300 4250
+NoConn ~ 4300 4450
+NoConn ~ 4300 4650
+NoConn ~ 4300 4850
+NoConn ~ 4300 4150
+Text HLabel 6750 2850 0    60   Output ~ 0
+PC_TX
+Text HLabel 6750 2950 0    60   Input ~ 0
+PC_RX
+Text Label 3100 6350 0    60   ~ 0
+LED[1..4]
+Text HLabel 3050 6350 0    60   Output ~ 0
+LED[1..4]
+Entry Wire Line
+	3650 5550 3750 5450
+Entry Wire Line
+	3650 5650 3750 5550
+Entry Wire Line
+	3650 5750 3750 5650
+Entry Wire Line
+	3650 5850 3750 5750
+$Comp
+L XC6SLX16 Q401
+U 5 1 542CB121
+P 14200 4050
+F 0 "Q401" H 14200 6400 50  0000 C CNN
+F 1 "XC6SLX16" H 14200 6500 50  0000 C CNN
+F 2 "Module" H 14200 6600 50  0001 C CNN
+F 3 "DOCUMENTATION" H 14200 6650 50  0001 C CNN
+	5    14200 4050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	15050 2400 15050 3100
 Wire Wire Line
@@ -807,147 +599,37 @@ Wire Wire Line
 Wire Bus Line
 	1050 1350 3650 1350
 Wire Bus Line
-	1350 1350 1350 5850
-Wire Bus Line
-	3650 1350 3650 4950
-Wire Wire Line
-	4300 4850 3750 4850
-Wire Wire Line
-	4300 4750 3750 4750
-Wire Wire Line
-	4300 4650 3750 4650
-Wire Wire Line
-	4300 4550 3750 4550
-Wire Wire Line
-	4300 4450 3750 4450
-Wire Wire Line
-	4300 4350 3750 4350
-Wire Wire Line
-	4300 4250 3750 4250
-Wire Wire Line
-	4300 4150 3750 4150
-Wire Wire Line
-	4300 4050 3750 4050
+	1350 1350 1350 6550
 Wire Wire Line
 	4300 3950 3750 3950
 Wire Wire Line
-	4300 3850 3750 3850
-Wire Wire Line
-	4300 3750 3750 3750
-Wire Wire Line
-	4300 3650 3750 3650
-Wire Wire Line
 	4300 3550 3750 3550
-Wire Wire Line
-	4300 3450 3750 3450
-Wire Wire Line
-	4300 3350 3750 3350
-Wire Wire Line
-	4300 3250 3750 3250
 Wire Wire Line
 	4300 3150 3750 3150
 Wire Wire Line
-	4300 3050 3750 3050
-Wire Wire Line
-	4300 2950 3750 2950
-Wire Wire Line
-	4300 2850 3750 2850
-Wire Wire Line
 	4300 2750 3750 2750
-Wire Wire Line
-	4300 2650 3750 2650
-Wire Wire Line
-	4300 2550 3750 2550
-Wire Wire Line
-	4300 2450 3750 2450
-Wire Wire Line
-	4300 2350 3750 2350
-Wire Wire Line
-	4300 2250 3750 2250
-Wire Wire Line
-	4300 2150 3750 2150
-Wire Wire Line
-	4300 2050 3750 2050
 Wire Wire Line
 	4300 1950 3750 1950
 Wire Wire Line
-	4300 1850 3750 1850
-Wire Wire Line
 	2000 5750 1450 5750
-Wire Wire Line
-	2000 5650 1450 5650
 Wire Wire Line
 	2000 5550 1450 5550
 Wire Wire Line
-	2000 5450 1450 5450
-Wire Wire Line
-	2000 5350 1450 5350
-Wire Wire Line
-	2000 5250 1450 5250
-Wire Wire Line
-	2000 5150 1450 5150
-Wire Wire Line
-	2000 5050 1450 5050
-Wire Wire Line
 	2000 4950 1450 4950
-Wire Wire Line
-	2000 4850 1450 4850
-Wire Wire Line
-	2000 4750 1450 4750
-Wire Wire Line
-	2000 4650 1450 4650
-Wire Wire Line
-	2000 4550 1450 4550
-Wire Wire Line
-	2000 4450 1450 4450
-Wire Wire Line
-	2000 4350 1450 4350
-Wire Wire Line
-	2000 4250 1450 4250
 Wire Wire Line
 	2000 4150 1450 4150
 Wire Wire Line
-	2000 4050 1450 4050
-Wire Wire Line
 	2000 3950 1450 3950
-Wire Wire Line
-	2000 3850 1450 3850
 Wire Wire Line
 	2000 3750 1450 3750
 Wire Wire Line
-	2000 3650 1450 3650
-Wire Wire Line
-	2000 3550 1450 3550
-Wire Wire Line
-	2000 3450 1450 3450
-Wire Wire Line
 	2000 3350 1450 3350
-Wire Wire Line
-	2000 3250 1450 3250
-Wire Wire Line
-	2000 3150 1450 3150
-Wire Wire Line
-	2000 3050 1450 3050
 Wire Wire Line
 	2000 2950 1450 2950
 Wire Wire Line
-	2000 2850 1450 2850
-Wire Wire Line
-	2000 2750 1450 2750
-Wire Wire Line
-	2000 2650 1450 2650
-Wire Wire Line
 	2000 2550 1450 2550
 Wire Wire Line
-	2000 2450 1450 2450
-Wire Wire Line
-	2000 2350 1450 2350
-Wire Wire Line
-	2000 2250 1450 2250
-Wire Wire Line
 	2000 2150 1450 2150
-Wire Wire Line
-	2000 2050 1450 2050
 Wire Wire Line
 	2000 1950 1450 1950
 Wire Wire Line
@@ -1123,13 +805,11 @@ Wire Wire Line
 Wire Wire Line
 	15050 4000 14950 4000
 Wire Wire Line
-	7500 2650 6950 2650
-Wire Wire Line
 	7500 2150 6950 2150
 Wire Wire Line
 	7500 2550 6950 2550
 Wire Wire Line
-	7000 5850 7500 5850
+	6950 5850 7500 5850
 Wire Wire Line
 	6950 7950 6950 8050
 Wire Wire Line
@@ -1287,59 +967,27 @@ Wire Wire Line
 	2100 8450 2100 8550
 Connection ~ 1600 7950
 Connection ~ 1600 8550
-Text GLabel 1350 7950 0    60   Input ~ 0
-1.2V
-Text GLabel 1350 8550 0    60   Input ~ 0
-GND
 Wire Wire Line
 	2400 10000 2400 10100
 Wire Wire Line
 	2400 9500 2400 9600
 Connection ~ 1600 9500
-Text Label 1350 9500 0    60   ~ 0
-3.3V
 Connection ~ 1600 10100
-Text Label 1350 10100 0    60   ~ 0
-GND
-Text GLabel 1350 9500 0    60   Input ~ 0
-3.3V
 Wire Wire Line
 	6400 8650 6400 8550
 Wire Wire Line
 	6400 8550 6150 8550
-Text Label 6150 8550 0    60   ~ 0
-3.3V
 Wire Wire Line
 	7500 9850 7750 9850
-Text Label 7750 9850 2    60   ~ 0
-GND
-Text Label 5450 10400 0    60   ~ 0
-GND
-Text Label 4950 7300 0    60   ~ 0
-GND
 Wire Wire Line
 	6950 8050 6700 8050
-Text Label 6700 8050 0    60   ~ 0
-GND
 Wire Wire Line
 	6950 7350 6950 7550
 Wire Wire Line
 	7550 7450 7800 7450
-Text Label 7800 7450 2    60   ~ 0
-3.3V
-Text Label 6800 7150 2    60   ~ 0
-GND
 Wire Wire Line
 	9550 9300 9100 9300
 Connection ~ 9350 9300
-Text Label 9100 9300 0    60   ~ 0
-GND
-Text Label 10950 8700 2    60   ~ 0
-3.3V
-Text Label 13650 8850 2    60   ~ 0
-GND
-Text Label 13650 8650 2    60   ~ 0
-3.3V
 Wire Wire Line
 	3750 5550 4300 5550
 Wire Wire Line
@@ -1348,64 +996,347 @@ Wire Wire Line
 	4300 5750 3750 5750
 Wire Wire Line
 	4300 5450 3750 5450
-Text Label 3800 5450 0    60   ~ 0
-LED1
-Text Label 3800 5550 0    60   ~ 0
-LED2
-Text Label 3800 5650 0    60   ~ 0
-LED3
-Text Label 3800 5750 0    60   ~ 0
-LED4
-$Comp
-L PWR_FLAG #FLG04
-U 1 1 542DBB59
-P 6950 7350
-F 0 "#FLG04" H 6950 7445 30  0001 C CNN
-F 1 "PWR_FLAG" H 6950 7530 30  0000 C CNN
-F 2 "" H 6950 7350 60  0000 C CNN
-F 3 "" H 6950 7350 60  0000 C CNN
-	1    6950 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG05
-U 1 1 542DBF84
-P 7150 9150
-F 0 "#FLG05" H 7150 9245 30  0001 C CNN
-F 1 "PWR_FLAG" H 7150 9330 30  0000 C CNN
-F 2 "" H 7150 9150 60  0000 C CNN
-F 3 "" H 7150 9150 60  0000 C CNN
-	1    7150 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG06
-U 1 1 542DC589
-P 9350 8600
-F 0 "#FLG06" H 9350 8695 30  0001 C CNN
-F 1 "PWR_FLAG" H 9350 8780 30  0000 C CNN
-F 2 "" H 9350 8600 60  0000 C CNN
-F 3 "" H 9350 8600 60  0000 C CNN
-	1    9350 8600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 8700 8500 8700
-Text Label 8500 8700 0    60   ~ 0
-3.3V
 Wire Wire Line
 	13450 3850 13350 3850
 Wire Wire Line
 	13100 3650 13450 3650
 Connection ~ 13350 3650
-Text Label 13100 3650 0    60   ~ 0
-GND
-Wire Wire Line
-	4300 5250 3750 5250
 Wire Wire Line
 	4300 5150 3750 5150
-Text Label 3750 5150 0    60   ~ 0
-I2C_EE_SCL
-Text Label 3750 5250 0    60   ~ 0
+Wire Wire Line
+	6750 2850 7500 2850
+Wire Wire Line
+	6750 2950 7500 2950
+Wire Wire Line
+	7500 3050 6950 3050
+Wire Wire Line
+	7500 3150 6950 3150
+Wire Wire Line
+	7500 3250 6950 3250
+Wire Wire Line
+	7500 3350 6950 3350
+Wire Wire Line
+	7500 3450 6950 3450
+Wire Wire Line
+	7500 3550 6950 3550
+Wire Bus Line
+	5700 1350 6850 1350
+Wire Bus Line
+	3650 1350 3650 5050
+Wire Bus Line
+	3650 5550 3650 6350
+Wire Bus Line
+	3650 6350 3050 6350
+$Comp
+L XC6SLX16 Q401
+U 4 1 542CAE77
+P 11400 4150
+F 0 "Q401" H 11400 6500 50  0000 C CNN
+F 1 "XC6SLX16" H 11400 6600 50  0000 C CNN
+F 2 "Module" H 11400 6700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 11400 6750 50  0001 C CNN
+	4    11400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3650 6950 3650
+Wire Wire Line
+	7500 3850 6950 3850
+Wire Wire Line
+	7500 4450 6950 4450
+Wire Wire Line
+	7500 4850 6950 4850
+Wire Wire Line
+	7500 5050 6950 5050
+Wire Wire Line
+	7500 5450 6950 5450
+Wire Wire Line
+	10450 2450 9900 2450
+Wire Wire Line
+	10450 2650 9900 2650
+Wire Wire Line
+	10450 2850 9900 2850
+Wire Wire Line
+	10450 3050 9900 3050
+Wire Wire Line
+	10450 3250 9900 3250
+Wire Wire Line
+	10450 3450 9900 3450
+Wire Wire Line
+	10450 3850 9900 3850
+Wire Wire Line
+	10450 4250 9900 4250
+Wire Wire Line
+	10450 5450 9900 5450
+Wire Wire Line
+	10450 5850 9900 5850
+Entry Wire Line
+	6850 3750 6950 3650
+Entry Wire Line
+	6850 3950 6950 3850
+Entry Wire Line
+	6850 4550 6950 4450
+Entry Wire Line
+	6850 4950 6950 4850
+Entry Wire Line
+	6850 5150 6950 5050
+Entry Wire Line
+	6850 5550 6950 5450
+Entry Wire Line
+	9800 2550 9900 2450
+Entry Wire Line
+	9800 2750 9900 2650
+Entry Wire Line
+	9800 2950 9900 2850
+Entry Wire Line
+	9800 3150 9900 3050
+Entry Wire Line
+	9800 3350 9900 3250
+Entry Wire Line
+	9800 3550 9900 3450
+Entry Wire Line
+	9800 3950 9900 3850
+Entry Wire Line
+	9800 4350 9900 4250
+Entry Wire Line
+	9800 5550 9900 5450
+Entry Wire Line
+	9800 5950 9900 5850
+Text Label 6950 3650 0    60   ~ 0
+IO86
+Text Label 6950 3850 0    60   ~ 0
+IO88
+Text Label 6950 4450 0    60   ~ 0
+IO2
+Text Label 6950 4850 0    60   ~ 0
+IO4
+Text Label 6950 5050 0    60   ~ 0
+IO6
+Text Label 9900 2450 0    60   ~ 0
+IO1
+Text Label 9900 2650 0    60   ~ 0
+IO3
+Text Label 9900 2850 0    60   ~ 0
+IO5
+Text Label 9900 3050 0    60   ~ 0
+IO7
+Text Label 9900 3450 0    60   ~ 0
+IO11
+Text Label 9900 3850 0    60   ~ 0
+IO13
+Text Label 9900 4250 0    60   ~ 0
+IO17
+Text Label 9900 5450 0    60   ~ 0
+IO19
+Text Label 9900 5850 0    60   ~ 0
+IO23
+Wire Bus Line
+	6850 3750 6850 6550
+$Comp
+L 24LC64T U401
+U 1 1 5445B8EE
+P 6050 7300
+F 0 "U401" H 6150 7050 60  0000 C CNN
+F 1 "24LC64T" H 6050 7550 60  0000 C CNN
+F 2 "" H 5800 7300 60  0000 C CNN
+F 3 "" H 5800 7300 60  0000 C CNN
+	1    6050 7300
+	1    0    0    -1  
+$EndComp
+Text Label 1500 1950 0    60   ~ 0
+IO29
+Text Label 1500 2150 0    60   ~ 0
+IO31
+Text Label 3800 2750 0    60   ~ 0
+IO69
+$Comp
+L XC6SLX16 Q401
+U 2 1 542CAE68
+P 5250 4050
+F 0 "Q401" H 5250 6400 50  0000 C CNN
+F 1 "XC6SLX16" H 5250 6500 50  0000 C CNN
+F 2 "Module" H 5250 6600 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5250 6650 50  0001 C CNN
+	2    5250 4050
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	3650 4450 3750 4350
+Text Label 3800 4350 0    60   ~ 0
+IO83
+Wire Wire Line
+	4300 4350 3750 4350
+Entry Wire Line
+	3650 4650 3750 4550
+Text Label 3800 4550 0    60   ~ 0
+IO85
+Wire Wire Line
+	4300 4550 3750 4550
+NoConn ~ 4300 5250
+Text Label 3750 5350 0    60   ~ 0
 I2C_EE_SDA
+Wire Wire Line
+	4300 5350 3750 5350
+Text Label 6950 5450 0    60   ~ 0
+IO8
+Wire Bus Line
+	9800 2350 9800 6550
+Text Label 9900 3250 0    60   ~ 0
+IO9
+Wire Wire Line
+	7500 5950 6950 5950
+Entry Wire Line
+	6850 6050 6950 5950
+Text Label 6950 5950 0    60   ~ 0
+IO10
+Wire Wire Line
+	10450 6050 9900 6050
+Entry Wire Line
+	9800 6150 9900 6050
+Text Label 9900 6050 0    60   ~ 0
+IO25
+Wire Bus Line
+	9800 6550 1350 6550
+NoConn ~ 2000 2050
+NoConn ~ 2000 2250
+NoConn ~ 2000 2350
+NoConn ~ 2000 2450
+NoConn ~ 2000 2650
+NoConn ~ 2000 2750
+NoConn ~ 2000 2850
+NoConn ~ 2000 3050
+NoConn ~ 2000 3150
+NoConn ~ 2000 3250
+NoConn ~ 2000 3450
+NoConn ~ 2000 3550
+NoConn ~ 2000 3650
+NoConn ~ 2000 3850
+NoConn ~ 2000 4050
+NoConn ~ 2000 4250
+NoConn ~ 2000 4350
+NoConn ~ 2000 4450
+NoConn ~ 2000 4550
+NoConn ~ 2000 4650
+NoConn ~ 2000 4750
+NoConn ~ 2000 4850
+NoConn ~ 2000 5050
+NoConn ~ 2000 5250
+NoConn ~ 2000 5350
+NoConn ~ 2000 5450
+NoConn ~ 2000 5650
+Entry Wire Line
+	1350 5250 1450 5150
+Text Label 1500 5150 0    60   ~ 0
+IO57
+Wire Wire Line
+	2000 5150 1450 5150
+NoConn ~ 4300 1850
+NoConn ~ 4300 2050
+NoConn ~ 4300 2150
+NoConn ~ 4300 2250
+NoConn ~ 4300 2350
+NoConn ~ 4300 2450
+NoConn ~ 4300 2550
+NoConn ~ 4300 2650
+NoConn ~ 4300 2850
+NoConn ~ 4300 2950
+NoConn ~ 4300 3050
+NoConn ~ 4300 3250
+NoConn ~ 4300 3350
+NoConn ~ 4300 3450
+NoConn ~ 4300 3650
+NoConn ~ 4300 3750
+NoConn ~ 4300 3850
+NoConn ~ 4300 4050
+Wire Wire Line
+	6300 2050 7500 2050
+Text Label 6950 2050 0    60   ~ 0
+IO78
+Wire Wire Line
+	6300 2450 7500 2450
+Text Label 6950 2450 0    60   ~ 0
+IO82
+NoConn ~ 7500 3750
+NoConn ~ 7500 3950
+NoConn ~ 7500 4050
+NoConn ~ 7500 4150
+NoConn ~ 7500 4250
+NoConn ~ 7500 4350
+NoConn ~ 7500 4550
+NoConn ~ 7500 4650
+NoConn ~ 7500 4750
+NoConn ~ 7500 4950
+NoConn ~ 7500 5150
+NoConn ~ 7500 5250
+NoConn ~ 7500 5350
+NoConn ~ 7500 5550
+NoConn ~ 7500 5650
+NoConn ~ 7500 5750
+NoConn ~ 10450 1950
+NoConn ~ 10450 2050
+NoConn ~ 10450 2350
+NoConn ~ 10450 2550
+NoConn ~ 10450 2750
+NoConn ~ 10450 2950
+NoConn ~ 10450 3150
+NoConn ~ 10450 3350
+NoConn ~ 10450 3550
+NoConn ~ 10450 3750
+NoConn ~ 10450 3950
+NoConn ~ 10450 4050
+NoConn ~ 10450 4150
+NoConn ~ 10450 4350
+NoConn ~ 10450 4450
+NoConn ~ 10450 4550
+NoConn ~ 10450 4650
+NoConn ~ 10450 4750
+NoConn ~ 10450 4850
+NoConn ~ 10450 4950
+NoConn ~ 10450 5050
+NoConn ~ 10450 5150
+NoConn ~ 10450 5250
+NoConn ~ 10450 5350
+NoConn ~ 10450 5550
+NoConn ~ 10450 5650
+NoConn ~ 10450 5750
+NoConn ~ 10450 5950
+Wire Bus Line
+	6850 1350 6850 3650
+Entry Wire Line
+	6200 2150 6300 2050
+Wire Wire Line
+	6950 2650 7500 2650
+Entry Wire Line
+	6200 2550 6300 2450
+Wire Bus Line
+	6850 3750 6200 3750
+Wire Bus Line
+	6200 3750 6200 2150
+Wire Wire Line
+	4300 4750 3750 4750
+Entry Wire Line
+	3650 4850 3750 4750
+Text Label 3800 4750 0    60   ~ 0
+IO87
+Entry Wire Line
+	6200 2350 6300 2250
+Text Label 6950 2250 0    60   ~ 0
+IO84
+Wire Wire Line
+	7500 2250 6300 2250
+Wire Wire Line
+	10450 2250 9900 2250
+Entry Wire Line
+	9800 2350 9900 2250
+Text Label 9900 2250 0    60   ~ 0
+IO12
+Wire Wire Line
+	4300 4950 3750 4950
+Entry Wire Line
+	3650 5050 3750 4950
+Text Label 3800 4950 0    60   ~ 0
+IO76
+NoConn ~ 10450 2150
 $EndSCHEMATC
