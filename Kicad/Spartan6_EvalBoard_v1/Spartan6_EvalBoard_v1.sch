@@ -32,7 +32,7 @@ LIBS:numato_kicad_lib
 LIBS:xilinx
 LIBS:Eric
 LIBS:Spartan6_EvalBoard_v1-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

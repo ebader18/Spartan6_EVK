@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name Eric)(type Legacy)(uri D:\Projects\Personal\Spartan6_EVK\Kicad\Spartan6_EvalBoard_v1\Eric.mod)(options "")(descr ""))
+  (lib (name Tinkerforge)(type Legacy)(uri C:\SPB_Data\kicad_sources\library-repos\tinkerforge.mod)(options "")(descr ""))
+  (lib (name Air_Coils_SML_NEOSID.pretty)(type KiCad)(uri C:\SPB_Data\kicad_sources\library-repos\Air_Coils_SML_NEOSID.pretty)(options "")(descr ""))
+  (lib (name Buzzers_Beepers.pretty)(type KiCad)(uri C:\SPB_Data\kicad_sources\library-repos\Buzzers_Beepers.pretty)(options "")(descr ""))
+  (lib (name Capacitors_Elko_ThroughHole.pretty)(type KiCad)(uri C:\SPB_Data\kicad_sources\library-repos\Capacitors_Elko_ThroughHole.pretty)(options "")(descr ""))
+  (lib (name Capacitors_SMD.pretty)(type KiCad)(uri C:\SPB_Data\kicad_sources\library-repos\Capacitors_SMD.pretty)(options "")(descr ""))
+  (lib (name Capacitors_Tantalum_SMD.pretty)(type KiCad)(uri C:\SPB_Data\kicad_sources\library-repos\Capacitors_Tantalum_SMD.pretty)(options "")(descr ""))
+)
