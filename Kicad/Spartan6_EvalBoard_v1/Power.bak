@@ -569,10 +569,6 @@ Text Label 6800 3950 2    60   ~ 0
 PC_TX
 Text Label 6800 4050 2    60   ~ 0
 PC_RX
-Text Label 6800 4250 2    60   ~ 0
-PC_GPIO5
-Text Label 6800 4350 2    60   ~ 0
-PC_GPIO4
 Text Label 6800 4450 2    60   ~ 0
 PC_GPIO3
 Text Label 6800 4550 2    60   ~ 0
@@ -582,7 +578,7 @@ PC_GPIO1
 Text Label 6800 4750 2    60   ~ 0
 PC_GPIO0
 Text Label 5850 5050 0    60   ~ 0
-PC_GPIO[0..5]
+PC_GPIO[0..3]
 $Comp
 L R R307
 U 1 1 5442E769
@@ -599,7 +595,7 @@ GND
 Text Label 4350 4250 0    60   ~ 0
 5V_USB
 Text HLabel 5750 5050 0    60   BiDi ~ 0
-PC_GPIO[0..5]
+PC_GPIO[0..3]
 Text HLabel 6800 3950 2    60   Input ~ 0
 PC_TX
 Text HLabel 6800 4050 2    60   Output ~ 0
@@ -900,10 +896,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 4050 6800 4050
 Wire Wire Line
-	6350 4250 6800 4250
-Wire Wire Line
-	6350 4350 6800 4350
-Wire Wire Line
 	6350 4450 6800 4450
 Wire Wire Line
 	6350 4550 6800 4550
@@ -912,7 +904,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4750 6800 4750
 Wire Bus Line
-	6900 4150 6900 5050
+	6900 4350 6900 5050
 Wire Bus Line
 	6900 5050 6000 5050
 Wire Wire Line
@@ -1108,10 +1100,6 @@ Wire Wire Line
 	1150 5100 1150 4950
 Connection ~ 1150 4950
 Entry Wire Line
-	6800 4250 6900 4150
-Entry Wire Line
-	6800 4350 6900 4250
-Entry Wire Line
 	6800 4450 6900 4350
 Entry Wire Line
 	6800 4550 6900 4450
@@ -1296,4 +1284,6 @@ F 3 "~" H 6350 7250 60  0000 C CNN
 	1    6350 7250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6350 4250
+NoConn ~ 6350 4350
 $EndSCHEMATC

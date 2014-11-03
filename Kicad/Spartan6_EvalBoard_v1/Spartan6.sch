@@ -182,17 +182,6 @@ F 3 "~" H 1850 8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C404
-U 1 1 542BA02C
-P 2100 8250
-F 0 "C404" H 2100 8350 40  0000 L CNN
-F 1 "4.7u" H 2106 8165 40  0000 L CNN
-F 2 "Capacitors_SMD.pretty:C_0603" H 2138 8100 30  0001 C CNN
-F 3 "~" H 2100 8250 60  0000 C CNN
-	1    2100 8250
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C405
 U 1 1 542BA032
 P 2450 8250
@@ -283,25 +272,25 @@ $EndComp
 $Comp
 L XOSC X401
 U 1 1 542B6238
-P 10150 8800
-F 0 "X401" H 10350 8600 60  0000 C CNN
-F 1 "XOSC" H 10150 9000 60  0000 C CNN
-F 2 "Eric.mod:XTAL5032" H 10100 9100 60  0001 C CNN
-F 3 "" H 10100 9100 60  0000 C CNN
-	1    10150 8800
+P 9150 8800
+F 0 "X401" H 9350 8600 60  0000 C CNN
+F 1 "XOSC" H 9150 9000 60  0000 C CNN
+F 2 "Eric.mod:XTAL5032" H 9100 9100 60  0001 C CNN
+F 3 "" H 9100 9100 60  0000 C CNN
+	1    9150 8800
 	1    0    0    -1  
 $EndComp
-Text Label 10950 8900 2    60   ~ 0
+Text Label 9950 8900 2    60   ~ 0
 CLK
 $Comp
 L C C406
 U 1 1 542B660F
-P 9350 9000
-F 0 "C406" H 9350 9100 40  0000 L CNN
-F 1 "100n" H 9356 8915 40  0000 L CNN
-F 2 "Capacitors_SMD.pretty:C_0402" H 9388 8850 30  0001 C CNN
-F 3 "~" H 9350 9000 60  0000 C CNN
-	1    9350 9000
+P 10100 9000
+F 0 "C406" H 10100 9100 40  0000 L CNN
+F 1 "100n" H 10106 8915 40  0000 L CNN
+F 2 "Capacitors_SMD.pretty:C_0402" H 10138 8850 30  0001 C CNN
+F 3 "~" H 10100 9000 60  0000 C CNN
+	1    10100 9000
 	1    0    0    -1  
 $EndComp
 Text Label 10150 3650 0    60   ~ 0
@@ -320,12 +309,12 @@ $EndComp
 $Comp
 L F FB402
 U 1 1 542B7717
-P 9000 8700
-F 0 "FB402" H 9000 8600 50  0000 C CNN
-F 1 "F" H 9000 8700 50  0000 C CNN
-F 2 "Capacitors_SMD.pretty:C_0402" H 9000 8700 60  0001 C CNN
-F 3 "~" H 9000 8700 60  0000 C CNN
-	1    9000 8700
+P 10450 8700
+F 0 "FB402" H 10450 8600 50  0000 C CNN
+F 1 "F" H 10450 8700 50  0000 C CNN
+F 2 "Capacitors_SMD.pretty:C_0402" H 10450 8700 60  0001 C CNN
+F 3 "~" H 10450 8700 60  0000 C CNN
+	1    10450 8700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -340,7 +329,6 @@ F 3 "~" H 7300 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7500 1950
-NoConn ~ 7500 2350
 NoConn ~ 7500 2750
 Entry Wire Line
 	1350 2050 1450 1950
@@ -470,7 +458,7 @@ Text Label 7800 7450 2    60   ~ 0
 3.3V
 Text Label 6800 7150 2    60   ~ 0
 GND
-Text Label 9100 9300 0    60   ~ 0
+Text Label 10550 9300 2    60   ~ 0
 GND
 Text Label 10950 8700 2    60   ~ 0
 3.3V
@@ -478,14 +466,6 @@ Text Label 13650 8850 2    60   ~ 0
 GND
 Text Label 13650 8650 2    60   ~ 0
 3.3V
-Text Label 3800 5450 0    60   ~ 0
-LED1
-Text Label 3800 5550 0    60   ~ 0
-LED2
-Text Label 3800 5650 0    60   ~ 0
-LED3
-Text Label 3800 5750 0    60   ~ 0
-LED4
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 542DBB59
@@ -511,71 +491,39 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG06
 U 1 1 542DC589
-P 9350 8600
-F 0 "#FLG06" H 9350 8695 30  0001 C CNN
-F 1 "PWR_FLAG" H 9350 8780 30  0000 C CNN
-F 2 "" H 9350 8600 60  0000 C CNN
-F 3 "" H 9350 8600 60  0000 C CNN
-	1    9350 8600
+P 10100 8550
+F 0 "#FLG06" H 10100 8645 30  0001 C CNN
+F 1 "PWR_FLAG" H 10100 8730 30  0000 C CNN
+F 2 "" H 10100 8550 60  0000 C CNN
+F 3 "" H 10100 8550 60  0000 C CNN
+	1    10100 8550
 	1    0    0    -1  
 $EndComp
-Text Label 8500 8700 0    60   ~ 0
-3.3V
 Text Label 13100 3650 0    60   ~ 0
 GND
 Text Label 3750 5150 0    60   ~ 0
-I2C_EE_SCL
-Text Label 6950 2850 0    60   ~ 0
+IO70
+Text Label 9900 2550 0    60   ~ 0
 PC_TX
-Text Label 6950 2950 0    60   ~ 0
+Text Label 9900 2050 0    60   ~ 0
 PC_RX
-Text Label 6950 3050 0    60   ~ 0
-PC_GPIO0
-Text Label 6950 3150 0    60   ~ 0
-PC_GPIO1
-Text Label 6950 3250 0    60   ~ 0
-PC_GPIO2
-Text Label 6950 3350 0    60   ~ 0
-PC_GPIO3
-Text Label 6950 3450 0    60   ~ 0
-PC_GPIO4
 Text Label 6950 3550 0    60   ~ 0
-PC_GPIO5
-Text Label 5750 1350 0    60   ~ 0
-PC_GPIO[0..5]
-Text HLabel 5700 1350 0    60   BiDi ~ 0
-PC_GPIO[0..5]
-Entry Wire Line
-	6850 3150 6950 3050
-Entry Wire Line
-	6850 3250 6950 3150
-Entry Wire Line
-	6850 3350 6950 3250
-Entry Wire Line
-	6850 3450 6950 3350
-Entry Wire Line
-	6850 3550 6950 3450
-Entry Wire Line
-	6850 3650 6950 3550
+PC_GPIO3
+Text Label 5750 800  0    60   ~ 0
+PC_GPIO[0..3]
+Text HLabel 5700 800  0    60   BiDi ~ 0
+PC_GPIO[0..3]
 NoConn ~ 4300 4450
 NoConn ~ 4300 4850
 NoConn ~ 4300 4150
-Text HLabel 6750 2850 0    60   Output ~ 0
+Text HLabel 9700 2550 0    60   Output ~ 0
 PC_TX
-Text HLabel 6750 2950 0    60   Input ~ 0
+Text HLabel 9700 2050 0    60   Input ~ 0
 PC_RX
-Text Label 3100 6350 0    60   ~ 0
+Text Label 2750 7000 0    60   ~ 0
 LED[1..4]
-Text HLabel 3050 6350 0    60   Output ~ 0
+Text HLabel 2700 7000 0    60   Output ~ 0
 LED[1..4]
-Entry Wire Line
-	3650 5550 3750 5450
-Entry Wire Line
-	3650 5650 3750 5550
-Entry Wire Line
-	3650 5750 3750 5650
-Entry Wire Line
-	3650 5850 3750 5750
 $Comp
 L XC6SLX16 Q401
 U 5 1 542CB121
@@ -637,13 +585,6 @@ Wire Wire Line
 Connection ~ 7300 9250
 Wire Wire Line
 	7500 9250 7500 9350
-Connection ~ 9350 8700
-Wire Wire Line
-	9350 8600 9350 8800
-Wire Wire Line
-	9250 8700 9600 8700
-Wire Wire Line
-	9350 9200 9350 9300
 Connection ~ 6400 9250
 Wire Wire Line
 	6400 9250 6400 9150
@@ -675,11 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 3650 10150 3650
 Wire Wire Line
-	10700 8900 10950 8900
-Wire Wire Line
-	9600 8900 9550 8900
-Wire Wire Line
-	9550 8900 9550 9300
+	9700 8900 9950 8900
 Wire Wire Line
 	10700 8700 10950 8700
 Connection ~ 1850 10100
@@ -704,7 +641,6 @@ Wire Wire Line
 Connection ~ 1850 8550
 Wire Wire Line
 	1600 8550 1600 8450
-Connection ~ 2100 8550
 Wire Wire Line
 	1850 8550 1850 8450
 Wire Wire Line
@@ -955,13 +891,8 @@ Wire Wire Line
 Wire Wire Line
 	1350 7950 2450 7950
 Wire Wire Line
-	2100 7950 2100 8050
-Wire Wire Line
 	1850 7950 1850 8050
-Connection ~ 2100 7950
 Connection ~ 1850 7950
-Wire Wire Line
-	2100 8450 2100 8550
 Connection ~ 1600 7950
 Connection ~ 1600 8550
 Wire Wire Line
@@ -983,18 +914,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 7450 7800 7450
 Wire Wire Line
-	9550 9300 9100 9300
-Connection ~ 9350 9300
-Wire Wire Line
-	3750 5550 4300 5550
-Wire Wire Line
-	4300 5650 3750 5650
-Wire Wire Line
-	4300 5750 3750 5750
-Wire Wire Line
-	4300 5450 3750 5450
-Wire Wire Line
-	8750 8700 8500 8700
+	10550 9300 10100 9300
 Wire Wire Line
 	13450 3850 13350 3850
 Wire Wire Line
@@ -1003,29 +923,17 @@ Connection ~ 13350 3650
 Wire Wire Line
 	4300 5150 3750 5150
 Wire Wire Line
-	6750 2850 7500 2850
+	9700 2550 10450 2550
 Wire Wire Line
-	6750 2950 7500 2950
-Wire Wire Line
-	7500 3050 6950 3050
-Wire Wire Line
-	7500 3150 6950 3150
-Wire Wire Line
-	7500 3250 6950 3250
-Wire Wire Line
-	7500 3350 6950 3350
-Wire Wire Line
-	7500 3450 6950 3450
+	9700 2050 10450 2050
 Wire Wire Line
 	7500 3550 6950 3550
 Wire Bus Line
-	5700 1350 6850 1350
+	5700 800  6850 800 
 Wire Bus Line
-	3650 1350 3650 5150
+	3650 1350 3650 5250
 Wire Bus Line
-	3650 5550 3650 6350
-Wire Bus Line
-	3650 6350 3050 6350
+	3300 7000 2700 7000
 $Comp
 L XC6SLX16 Q401
 U 4 1 542CAE77
@@ -1171,7 +1079,6 @@ Text Label 3800 4550 0    60   ~ 0
 IO85
 Wire Wire Line
 	4300 4550 3750 4550
-NoConn ~ 4300 5250
 Text Label 3750 5350 0    60   ~ 0
 I2C_EE_SDA
 Wire Wire Line
@@ -1246,25 +1153,19 @@ Wire Wire Line
 	6300 2450 7500 2450
 Text Label 6950 2450 0    60   ~ 0
 IO82
-NoConn ~ 7500 3750
 NoConn ~ 7500 3950
 NoConn ~ 7500 4050
 NoConn ~ 7500 4150
 NoConn ~ 7500 4250
-NoConn ~ 7500 4350
 NoConn ~ 7500 4550
 NoConn ~ 7500 4650
 NoConn ~ 7500 4750
-NoConn ~ 7500 4950
 NoConn ~ 7500 5150
 NoConn ~ 7500 5250
 NoConn ~ 7500 5350
 NoConn ~ 7500 5550
 NoConn ~ 7500 5650
-NoConn ~ 7500 5750
 NoConn ~ 10450 1950
-NoConn ~ 10450 2050
-NoConn ~ 10450 2550
 NoConn ~ 10450 2950
 NoConn ~ 10450 3350
 NoConn ~ 10450 3550
@@ -1284,8 +1185,6 @@ NoConn ~ 10450 5250
 NoConn ~ 10450 5550
 NoConn ~ 10450 5650
 NoConn ~ 10450 5750
-Wire Bus Line
-	6850 1350 6850 3650
 Entry Wire Line
 	6200 2150 6300 2050
 Wire Wire Line
@@ -1306,8 +1205,6 @@ Entry Wire Line
 	6200 2350 6300 2250
 Text Label 6950 2250 0    60   ~ 0
 IO84
-Wire Wire Line
-	7500 2250 6300 2250
 Wire Wire Line
 	10450 2250 9900 2250
 Entry Wire Line
@@ -1377,10 +1274,6 @@ Entry Wire Line
 Wire Wire Line
 	4300 1850 3750 1850
 Wire Wire Line
-	4300 5050 3750 5050
-Entry Wire Line
-	3650 5150 3750 5050
-Wire Wire Line
 	4300 4650 3750 4650
 Entry Wire Line
 	3650 4750 3750 4650
@@ -1396,8 +1289,6 @@ Entry Wire Line
 	3650 2750 3750 2650
 Wire Wire Line
 	4300 2650 3750 2650
-Text Label 3800 5050 0    60   ~ 0
-IO70
 Text Label 3800 4650 0    60   ~ 0
 IO68
 Text Label 3800 4250 0    60   ~ 0
@@ -1434,4 +1325,122 @@ Text Label 9900 2350 0    60   ~ 0
 IO18
 Text Label 9900 2150 0    60   ~ 0
 IO14
+Wire Wire Line
+	9700 8700 10200 8700
+Wire Wire Line
+	10100 9300 10100 9200
+Text Label 8350 8900 0    60   ~ 0
+GND
+Wire Wire Line
+	8600 8900 8350 8900
+Wire Wire Line
+	10100 8550 10100 8800
+Connection ~ 10100 8700
+Wire Wire Line
+	8600 8700 8500 8700
+Wire Wire Line
+	8500 8700 8500 8500
+Wire Wire Line
+	8500 8500 9800 8500
+Wire Wire Line
+	9800 8500 9800 8700
+Connection ~ 9800 8700
+NoConn ~ 7500 3350
+NoConn ~ 7500 3250
+NoConn ~ 7500 3150
+Wire Wire Line
+	7500 2250 6300 2250
+Wire Bus Line
+	6850 800  6850 1200
+Entry Wire Line
+	6850 900  6950 800 
+Entry Wire Line
+	6850 1000 6950 900 
+Entry Wire Line
+	6850 1100 6950 1000
+Entry Wire Line
+	6850 1200 6950 1100
+Wire Wire Line
+	6950 1100 7450 1100
+Wire Wire Line
+	6950 1000 7450 1000
+Wire Wire Line
+	6950 900  7450 900 
+Wire Wire Line
+	6950 800  7450 800 
+Text Label 7450 800  2    60   ~ 0
+PC_GPIO0
+Text Label 7450 900  2    60   ~ 0
+PC_GPIO1
+Text Label 7450 1000 2    60   ~ 0
+PC_GPIO2
+Text Label 7450 1100 2    60   ~ 0
+PC_GPIO3
+Wire Wire Line
+	7500 4350 6950 4350
+Text Label 6950 4350 0    60   ~ 0
+PC_GPIO2
+Wire Wire Line
+	7500 5750 6950 5750
+Wire Wire Line
+	7500 4950 6950 4950
+Text Label 6950 4950 0    60   ~ 0
+PC_GPIO1
+Text Label 6950 5750 0    60   ~ 0
+PC_GPIO0
+Wire Bus Line
+	3300 7000 3300 7400
+Entry Wire Line
+	3300 7100 3400 7000
+Entry Wire Line
+	3300 7200 3400 7100
+Entry Wire Line
+	3300 7300 3400 7200
+Entry Wire Line
+	3300 7400 3400 7300
+Wire Wire Line
+	3400 7000 3850 7000
+Wire Wire Line
+	3400 7100 3850 7100
+Wire Wire Line
+	3400 7200 3850 7200
+Wire Wire Line
+	3400 7300 3850 7300
+Text Label 3850 7300 2    60   ~ 0
+LED4
+Text Label 3850 7200 2    60   ~ 0
+LED3
+Text Label 3850 7100 2    60   ~ 0
+LED2
+Text Label 3850 7000 2    60   ~ 0
+LED1
+NoConn ~ 4300 5550
+NoConn ~ 4300 5750
+NoConn ~ 4300 5250
+Wire Wire Line
+	7500 3750 6950 3750
+Wire Wire Line
+	7500 3450 6950 3450
+Wire Wire Line
+	7500 2950 6950 2950
+Text Label 6950 3750 0    60   ~ 0
+LED1
+Text Label 6950 3450 0    60   ~ 0
+LED2
+Text Label 6950 2950 0    60   ~ 0
+LED3
+NoConn ~ 7500 2850
+Wire Wire Line
+	7500 3050 6950 3050
+Text Label 6950 3050 0    60   ~ 0
+LED4
+NoConn ~ 7500 2350
+NoConn ~ 4300 5650
+Entry Wire Line
+	3650 5250 3750 5150
+NoConn ~ 4300 5050
+Wire Wire Line
+	4300 5450 3750 5450
+Text Label 3750 5450 0    60   ~ 0
+I2C_EE_SCL
 $EndSCHEMATC
